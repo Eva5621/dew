@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио Эвелины, студентки информационных систем и технологий. Разработка сайтов, верстка и дизайн.">
+    <meta name="keywords" content="портфолио, Эвелина, информационные системы, веб-разработка, верстка, дизайн">
+    <title>Портфолио Эвелины</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <style>
+        /* Основные стили для сайта */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff; /* Белый фон сайта */
+            color: #333;
+        }
+
+        /* Шапка сайта */
+        header {
+            background-color: #fbe0e6; /* Пастельно-розовый цвет */
+            color: #333;
+            text-align: center;
+            padding: 40px 10px;
+        }
+
+        /* Смещаем текст "Студентка специальности..." чуть наверх */
+        header p {
+            margin-top: -10px; /* Немного приподняли */
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        /* Навигация */
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 30px;
+        }
+
+        nav ul li a {
+            font-family: 'Montserrat', sans-serif;
+            color: #5c3d58;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #d16f8d;
+        }
+
+        /* Заголовки */
+        h1, h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #d16f8d;
+            font-weight: 700;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-size: 48px;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 30px;
+            letter-spacing: 1.5px;
+        }
+
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #6f4e81;
+            font-weight: 600;
+        }
+
+        /* Стили для разделов */
+        section {
+            margin: 20px;
+            padding: 25px;
+            background-color: rgba(63, 81, 181, 0.1); /* Фон для разделов */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            background-color: #fbe0e6; /* Пастельно-розовый цвет */
+            color: #333;
+            text-align: center;
+            padding: 15px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Список навыков */
+        ul.skills-list {
+            list-style: square;
+            margin: 10px 0 0 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        a:hover {
+            color: #d16f8d;
+        }
+
+        h1:hover, h2:hover, h3:hover {
+            color: #f28c8c;
+            text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+
+        /* Мобильная адаптация */
+        max-width: 768px {
+            nav ul li {
+                display: block;
+                margin-bottom: 10px;
+            }
+
+            header {
+                padding: 30px 10px;
+            }
+
+            section {
+                margin: 10px;
+                padding: 20px;
+            }
+        }
+
+        /* Стили для раздела "Карьера и цели" */
+        #career-goals {
+            background-color: rgba(63, 81, 181, 0.1);
+            color: #333;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #career-goals h2 {
+            color: #d16f8d;
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        #career-goals p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Портфолио Эвелины</h1>
+        <p>Студентка специальности "Информационные системы и технологии"</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#career-goals">Карьера и цели</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Раздел "Обо мне" -->
+    <section id="about">
+        <h2>Обо мне</h2>
+        <p>Меня зовут Эвелина, я студентка направления "Информационные системы и технологии". Мне интересна разработка сайтов и изучение современных технологий. Я люблю создавать проекты, которые помогают улучшить мои навыки в области программирования и web-разработки.</p>
+    </section>
+
+    <!-- Раздел "Навыки" -->
+    <section id="skills">
+        <h2>Мои навыки</h2>
+        <ul class="skills-list">
+            <li>HTML и основы CSS</li>
+            <li>Работа с текстом и изображениями</li>
+            <li>Создание структурированных страниц</li>
+            <li>Базовое форматирование и стилизация контента</li>
+            <img src="images/к8.jpg" alt="Проект по верстке и дизайну" loading="lazy">
+           </li>
+        </ul>
+    </section>
+
+    <!-- Раздел "Услуги" -->
+    <section id="services">
+        <h2>Услуги</h2>
+        <ul>
+            <li>
+                <h3>Разработка сайтов</h3>
+                <p>Создание простых сайтов с использованием HTML. Я помогу вам разработать сайт, который будет эффективно работать и выглядеть современно.</p>
+                <img src="images/к15.jpg" alt="Проект по разработке сайта" loading="lazy">
+            </li>
+            <li>
+                <h3>Верстка и дизайн</h3>
+                <p>Создание адаптивных и эстетически привлекательных страниц, которые будут одинаково хорошо выглядеть на разных устройствах.</p>
+                <img src="images/к11.jpg" alt="Проект по верстке и дизайну" loading="lazy">
+            </li>
+        </ul>
+    </section>
+
+    <!-- Раздел "Карьера и цели" -->
+    <section id="career-goals">
+        <h2>Карьера и цели</h2>
+        <p>Моя цель — стать full-stack разработчиком, специализирующимся на создании веб-приложений с использованием современных технологий. Я стремлюсь работать в команде с профессионалами, создавать инновационные и эффективные решения для различных задач.</p>
+        <p>В ближайшие годы я планирую углубить свои знания, а также освоить новые технологии, такие как GraphQL и облачные решения, чтобы разрабатывать высококачественные, масштабируемые веб-приложения.</p>
+        <img src="images/к10.jpg" alt="Проект по верстке и дизайну" loading="lazy">
+    </li>
+    </section>
+
+
+    <!-- Раздел "Контакты" -->
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Связаться со мной можно по электронной почте: <a href="mailto:evelinala1@gmail.com">evelinala1@gmail.com</a></p>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+        <p>&copy; 2024 Эвелина | Студентка "Информационные системы и технологии"</p>
+    </footer>
+</body>
+</html>
